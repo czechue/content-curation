@@ -1,0 +1,21 @@
+# Content Curation System Settings
+
+# Database
+database:
+  path: ./curation.db      # Relative to project root
+
+# Obsidian output
+obsidian:
+  vault_path: /Users/michallester/personal/obsidian/czechue/main
+  reading_list_folder: Reading List
+
+# Fabric AI rating
+fabric:
+  model: gpt-4o-mini       # Cost-effective for bulk rating
+  pattern: rate_content    # Primary rating pattern
+  batch_size: 5            # Items per batch (rate limiting)
+
+# Fetching
+fetch:
+  days_back: 30            # How many days of content to fetch
+  max_transcript_chars: 3000  # Truncate long transcripts

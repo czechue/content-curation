@@ -1,0 +1,21 @@
+# Local data (not tracked in git)
+curation.db
+curation.db-wal
+curation.db-shm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

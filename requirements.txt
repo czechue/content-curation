@@ -1,0 +1,21 @@
+# Content Curation System Dependencies
+
+# Content fetching
+yt-dlp>=2024.1.0          # YouTube video/metadata extraction
+feedparser>=6.0.0          # RSS/podcast feed parsing
+requests>=2.31.0           # HTTP client
+
+# Data handling
+pydantic>=2.0.0            # Data validation and models
+
+# Configuration
+pyyaml>=6.0                # YAML config files
+
+# CLI
+click>=8.0.0               # Command-line interface
+
+# Templates
+jinja2>=3.0.0              # Markdown template rendering
+
+# Testing
+pytest>=7.0.0              # Test framework
